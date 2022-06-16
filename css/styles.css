@@ -34,20 +34,18 @@ header {
   padding: 8px 20px;
 }
 
+.trial:hover {
+  color: hsl(0, 0%, 70%);
+}
+
 .main-header {
   text-align: center;
   margin: 32px;
 }
 
-
-/* .main-header h1 {
-  font-size: 38px;
-} */
-
 h1, h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  /* margin: 50px 140px; */
 }
 
 .main-header p {
@@ -66,6 +64,10 @@ h1, h3 {
   padding: 30px 0;
 }
 
+.started:hover {
+  background-color: hsl(322, 100%, 70%);
+}
+
 .main-header img, main img {
   margin: 60px auto 0 auto;
   width: 85%;
@@ -80,14 +82,8 @@ h1, h3 {
   padding: 100px 40px;
 }
 
-/* .feature img {
-  margin: 0 auto 48px auto;
-  width: 80%;
-} */
-
 .feature p {
   color: hsl(208, 11%, 55%);
-  /* margin: 50px; */
 }
 
 .build {
@@ -163,6 +159,10 @@ footer {
   color: hsl(193, 100%, 96%);
   text-decoration: none;
   margin: 12px 0;
+}
+
+.about:hover, .whatwedo:hover, .faq:hover, .career:hover, .blog:hover, .contact:hover {
+  text-decoration: underline;
 }
 
 .social {
