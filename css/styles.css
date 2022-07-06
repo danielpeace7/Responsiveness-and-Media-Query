@@ -123,9 +123,16 @@ footer {
 }
 
 .footer-logo {
+  animation-name: footer;
+  animation-duration: 4s;
   filter: brightness(0) invert(1);
   margin: 25px 20px 0 30px;
   width: 300px;
+}
+
+@keyframes footer {
+  from {filter: brightness(0) invert(1);}
+  to {filter: brightness(0) invert(0);}
 }
 
 .contact {
