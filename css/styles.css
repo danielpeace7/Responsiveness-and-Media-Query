@@ -124,7 +124,7 @@ footer {
 
 .footer-logo {
   animation-name: footer;
-  animation-duration: 4s;
+  animation-duration: 25s;
   filter: brightness(0) invert(1);
   margin: 25px 20px 0 30px;
   width: 300px;
@@ -180,6 +180,10 @@ footer {
   filter: brightness(0) invert(1);
   margin-left: 25px;
   width: 60px;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover {
+  filter: invert(31%) sepia(98%) saturate(1842%) hue-rotate(310deg) brightness(102%) contrast(104%);
 }
 
 .copyright {
